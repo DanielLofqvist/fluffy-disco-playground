@@ -70,7 +70,6 @@ class Server
                 else if (msglen == 127)
                 {
                     Console.WriteLine("TODO: msglen == 127, needs qword to store msglen");
-                    // i don't really know the byte order, please edit this
                     // msglen = BitConverter.ToUInt64(new byte[] { bytes[5], bytes[4], bytes[3], bytes[2], bytes[9], bytes[8], bytes[7], bytes[6] }, 0);
                     // offset = 10;
                 }
